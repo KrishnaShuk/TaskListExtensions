@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Space Tasks AI",
+  "version": "1.0",
+  "description": "A space-themed to-do list with AI chat",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.openai.com/*"]
+}

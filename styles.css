@@ -1,0 +1,102 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a2a;
+  color: #ffffff;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="10" height="10"><circle cx="50" cy="50" r="1" fill="white" /></svg>');
+}
+
+h1 {
+  text-align: center;
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #1a1a4a;
+  border: 1px solid #00ffff;
+  color: #ffffff;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4a4a8a;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6a6aaa;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a4a;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+li::before {
+  content: '🚀';
+  margin-right: 5px;
+}
+
+.delete {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #ff6666;
+}
+
+#taskSection, #chatSection {
+  margin-bottom: 20px;
+}
+
+#chatHistory {
+  height: 150px;
+  overflow-y: auto;
+  background-color: #1a1a4a;
+  border: 1px solid #00ffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.user-message {
+  color: #ffffff;
+}
+
+.ai-message {
+  color: #00ffff;
+}
+
+#chatInput {
+  width: 70%;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #1a1a4a;
+  border: 1px solid #00ffff;
+  color: #ffffff;
+}
